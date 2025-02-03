@@ -716,6 +716,47 @@ margin: 0 auto 1.25rem;
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px){
+  .container{
+margin-inline: 1rem;
+  }
+
+  .section__title{
+    font-size: 1.25rem;
+  }
+
+  .home__title{
+    font-size: 1.75rem;
+  }
+
+  .home__buttons{
+    flex-direction: column;
+  }
+
+  .home__img-1{
+    width: 200px;
+    margin-left: 1.5rem;
+  }
+
+  .about__list{
+    grid-template-columns: repeat(1, 200px);
+  }
+
+  .about__img-1{
+    width: 150px;
+    left: 4rem;
+  }
+
+  .about__img-2{
+    width: 200px;
+    margin-right: 0;
+  }
+
+  .footer__content{
+    grid-template-columns: repeat(1, max-content);
+  }
+
+}
 
 
 /* For medium devices */
